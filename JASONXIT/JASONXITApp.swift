@@ -117,7 +117,7 @@ class JASONXITAppState: ObservableObject {
         refreshSystemInfo()
         JASONXITCore.shared().prepareFilzaFilesystem()
         let root = JASONXITCore.shared().filzaVirtualRoot()
-        let mcm = JASONXITCore.shared().filzaBridge().isContainerManagerAvailable ? "disponible" : "no disponible"
+        let mcm = JASONXITCore.shared().filzaBridge().isContainerManagerAvailable() ? "disponible" : "no disponible"
         addLog("Filesystem Filza preparado en: \(root)", level: .info)
         addLog("ContainerManager: \(mcm)", level: mcm == "disponible" ? .success : .warn)
         addLog("JASON XIT v2.0 preparado en entorno nativo Apple iOS", level: .info)

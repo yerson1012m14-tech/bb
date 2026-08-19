@@ -153,6 +153,7 @@
 				9C010001 /* JASONXITApp.swift in Sources */,
 				9C010002 /* ContentView.swift in Sources */,
 				9C010003 /* JASONXITCore.m in Sources */,
+				9C010005 /* JASONXITFilzaBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
