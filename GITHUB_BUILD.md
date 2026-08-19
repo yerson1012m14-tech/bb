@@ -1,13 +1,13 @@
-# JASONXIT — GitHub Actions build
+# JASONXIT — GitHub Actions build corregido
 
-1. Upload this whole folder to a GitHub repository.
-2. Open **Actions** → **Build JASONXIT iOS**.
-3. Press **Run workflow**.
-4. When it finishes, open the workflow run and download **JASONXIT-iOS-build**.
-5. The artifact contains `JASONXIT-unsigned.ipa`, the `.xcarchive`, and the Xcode build log.
+1. Sube TODO el contenido de esta carpeta a un repositorio de GitHub.
+2. Ve a **Actions** → **Build JASONXIT iOS**.
+3. Pulsa **Run workflow**.
+4. Al terminar, abre los artefactos y descarga **JASONXIT-iOS-build**.
+5. Dentro encontrarás `JASONXIT-unsigned.ipa` y el log de Xcode.
 
-This workflow builds an **unsigned** IPA. Installing it on a normal iPhone still requires signing with a valid Apple development/ad-hoc certificate and provisioning profile.
-
-The demo Key in the current source is:
+La Key de prueba del código es:
 
 `JX-DEMO-2026`
+
+Este workflow genera una IPA sin firmar. La instalación en un iPhone requiere firma válida.
